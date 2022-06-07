@@ -233,7 +233,37 @@
 									<div class="contact-form text-left animated" data-animation="fadeInUp" data-animation-delay="600">
 										<form class="mb-0" id="cf" name="cf" action="include/sendemail.php" method="post" autocomplete="off">
 											<div class="form-row">
+<head>
 
+    ..
+
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+    ...
+
+</head>
+
+<body>
+
+    ...
+
+    <div id="vcomments"></div>
+
+    <script>
+
+        new Valine({
+
+            el: '#vcomments',
+
+            appId: 'Your appId',
+
+            appKey: 'Your appKey'
+
+        })
+
+    </script>
+
+</body>
 												<div class="form-process"></div>
 
 												<div class="col-12 col-md-6">
@@ -265,21 +295,7 @@
 												</div>
 
 												<div class="col-12 text-center">
-													<button class="btn btn-primary" type="submit" id="cf-submit" name="cf-submit">发送！</button>
-												</div>
-
-											</div>
-										</form>
-										<div class="contact-form-result text-center"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
-
-			</div>
-		</div>
+													<buttonyy
 
 		<!-- Site footer -->
 		<footer class="site-footer footer-content-light footer-mobile-content-light">
